@@ -1,0 +1,18 @@
+from tkinter import *
+from tkinter import ttk
+import re
+
+
+root = Tk()
+root.title('Codemy.com - Tkinter Help!')
+root.geometry('0x0')
+
+# change re to any module to read more about it Button, widget, lambda, ttk, random
+
+my_help = str(help(re))
+print(my_help)
+
+
+
+
+root.mainloop()
